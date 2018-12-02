@@ -6,15 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-    <title>Bowling Scorecard</title>
+    <title> Bowling Scorecard </title>
 
   </head>
   <body bgcolor="lightgray">
     <section>
       <p>
         <center>
-          <span class="badge badge-dark"><font face="courier new"><h1><b> Bowling Scorecard </b></h1></font></span><br><br>
+
+          <img src="./images/Pins.jpg" alt="Bowling Pins" height="100" width="130"/>
+          <span class="badge badge-dark"><font face="courier new"><h1><b> Bowling Scorecard </b></h1></font></span>
+          <img src="./images/Pins.jpg" alt="Bowling Pins" height="100" width="130"/><br>
+
           <font face="courier new"><h3> Insert your scores: </h3></font><br>
+
           <button type="button" class="btn btn-outline-dark" id="1"><font face="courier new"><b> 1 </b></font></button>
           <button type="button" class="btn btn-outline-dark" id="2"><font face="courier new"><b> 2 </b></font></button>
           <button type="button" class="btn btn-outline-dark" id="3"><font face="courier new"><b> 3 </b></font></button>
@@ -24,8 +29,9 @@
           <button type="button" class="btn btn-outline-dark" id="7"><font face="courier new"><b> 7 </b></font></button>
           <button type="button" class="btn btn-outline-dark" id="8"><font face="courier new"><b> 8 </b></font></button>
           <button type="button" class="btn btn-outline-dark" id="9"><font face="courier new"><b> 9 </b></font></button>
-          <button type="button" class="btn btn-outline-dark" id="10"><font face="courier new"><b> 10 </button><br><br>
+          <button type="button" class="btn btn-outline-dark" id="10"><font face="courier new"><b> 10 </b></font></button><br><br>
 
+          <font face="courier new">
           <table class="table-sm table-dark">
             <tbody>
               <tr>
@@ -212,6 +218,7 @@
               </tr>
             </tbody>
           </table>
+          </font>
 
           <br><br>
 
@@ -225,6 +232,10 @@
         </center>
       </p>
     </section>
+
+    <script src="js/Jquery.js"></script>
+    <script src="js/BowlingGame.js"></script>
+    <script src="js/Controller.js"></script>
 
   </body>
 </html>
